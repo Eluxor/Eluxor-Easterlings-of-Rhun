@@ -1,0 +1,47 @@
+[
+		{
+		ingredientPattern: "B,A",
+		recipeGroup: 2,
+		ingredients: {
+			"A": { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokegamp" },
+			"B": { type: "item", code: "game:bone", quantity: 5 }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "Loke-Gamp Rim Leggings repair",
+		output: { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokegamp"  }
+	},
+	{
+		ingredientPattern: "A,B",
+		recipeGroup: 2,
+		ingredients: {
+			"A": { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokeflag" },
+			"B": { type: "item", code: "game:bone", quantity: 5 }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "Loke-Flag Rim Leggings repair",
+		output: { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokeflag"  }
+	},
+	{
+		ingredientPattern: "A,B",
+		recipeGroup: 2,
+		ingredients: {
+			"A": { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokenar" },
+			"B": { type: "item", code: "game:bone", quantity: 5 }
+		},
+		width: 1,
+		height: 2,
+		shapeless: true,
+		copyAttributesFrom: 'A',
+		averageDurability: false,
+		name: "Loke-Nar Rim Leggings repair",
+		output: { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokenar"  }
+	}
+]

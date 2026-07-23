@@ -1,0 +1,21 @@
+{
+    "item-clothes-head-easterlingshemagh": "Rhunic Face Mask",
+    "item-armor-body-easterling-lokegamp": "Loke-Gamp Rim Armor",
+    "item-armor-body-easterling-lokeflag": "Loke-Flag Rim Armor",
+    "item-armor-body-easterling-lokenar": "Loke-Nar Rim Armor",
+    
+    "item-armor-head-easterling-lokegamp": "Loke-Gamp Rim Helmet",
+    "item-armor-head-easterling-lokeflag": "Loke-Flag Rim Helmet",
+    "item-armor-head-easterling-lokenar": "Loke-Nar Rim Helmet",
+
+    "item-armor-legs-easterling-lokegamp": "Loke-Gamp Rim Leggings",
+    "item-armor-legs-easterling-lokeflag": "Loke-Flag Rim Leggings",
+    "item-armor-legs-easterling-lokenar": "Loke-Nar Rim Leggings",
+
+    "item-easterling-schematic": "Easterling Schematic",
+    "itemdesc-easterling-schematic": "A scroll with the smell of salt and smoke, full of knowledge passed down from generations of the Dragon Cult of the Sea of Rhun.",
+    "item-easterling-rolled-schematic": "Easterling Schematic (Rolled)",
+    "itemdesc-easterling-rolled-schematic": "A scroll with the smell of salt and smoke, full of knowledge passed down from generations of the Dragon Cult of the Sea of Rhun",
+
+    "game:tabname-easterlings": "Easterings of Rhun"
+}

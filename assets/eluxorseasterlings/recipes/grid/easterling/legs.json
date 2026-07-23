@@ -1,0 +1,41 @@
+[
+	{
+		ingredientPattern: "KHH,BRB,B_B",
+		ingredients: {
+			"K": { type: "item", isTool: true, tags: ["tool-trimming"]  },
+			"H": { type: "item", code: "game:hide-pelt-*", quantity: 4, tags: ["size-small"] },
+			"B": { type: "item", code: "game:bone", quantity: 4 },
+			"R": { type: "item", code: "game:rope", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		name: "Loke-Gamp Rim Leggings",
+		output: { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokegamp"  }
+	},
+	{
+		ingredientPattern: "KHK,BRB,B_B",
+		ingredients: {
+			"K": { type: "item", isTool: true, tags: ["tool-trimming"]  },
+			"H": { type: "item", code: "game:hide-pelt-*", quantity: 2, tags: ["size-medium"] },
+			"B": { type: "item", code: "game:bone", quantity: 4 },
+			"R": { type: "item", code: "game:rope", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		name: "Loke-Flag Rim Leggings",
+		output: { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokeflag"  }
+	},
+	{
+		ingredientPattern: "KH_,BRB,B_B",
+		ingredients: {
+			"K": { type: "item", isTool: true, tags: ["tool-trimming"]  },
+			"H": { type: "item", code: "game:hide-pelt-*", quantity: 1, tags: ["size-large"], returnedStack: { type: "item", code: "game:hide-pelt-small" }  },
+			"B": { type: "item", code: "game:bone", quantity: 4 },
+			"R": { type: "item", code: "game:rope", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		name: "Loke-Nar Rim Leggings",
+		output: { type: "item", code: "eluxorseasterlings:armor-legs-easterling-lokenar"  }
+	}
+]

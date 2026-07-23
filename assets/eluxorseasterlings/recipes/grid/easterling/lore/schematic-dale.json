@@ -1,0 +1,47 @@
+[
+	{
+		"ingredientPattern": "A",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": { "type": "item", "code": "eluxorseasterlings:easterling-schematic"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"name": "Roll Scroll",
+		"output": { "type": "item", "code": "eluxorseasterlings:easterling-rolled-schematic"
+		}
+	},
+	{
+		"ingredientPattern": "A",
+		"recipeGroup": 2,
+		"ingredients": {
+			"A": { "type": "item", "code": "eluxorseasterlings:easterling-rolled-schematic"
+			}
+		},
+		"width": 1,
+		"height": 1,
+		"name": "Roll Scroll",
+		"output": { "type": "item", "code": "eluxorseasterlings:easterling-schematic"
+		}
+	},
+	
+	
+	{
+		"ingredientPattern": "AFA,BEB,CDC",
+		"recipeGroup": 1,
+		"ingredients": {
+			"A": { "type": "item", "code": "game:bread-*-perfect", "quantity": 2},
+			"B": { "type": "item", "code": "game:leather-normal-plain"},
+			"C": { "type": "item", "code": "game:metalchain-*", "name": "metal", "allowedVariants": ["iron", "steel"], "quantity": 1 },
+			"D": { "type": "block", "code": "game:woodbucket", "quantity": 1 },
+			"E": { "type": "item", "code": "game:paper-parchment", "quantity": 5 },
+			"F": { "type": "item", "code": "game:bow-long", "quantity": 1 },
+		},
+		"width": 3,
+		"height": 3,
+		"name": "Roll Scroll",
+		"output": { "type": "item", "code": "eluxorseasterlings:easterling-schematic"
+		}
+	},
+]

@@ -1,0 +1,97 @@
+{
+	code: "armor",
+	class: "ItemWearable",
+	heldTpIdleAnimation: "holdunderarm",
+	variantgroups: [
+		{ code: "bodypart",  states: ["body"] },
+		{ code: "construction",  states: [ "easterling" ]},
+		{ code: "material", states: [ "lokegamp","lokeflag","lokenar"]}
+	],
+	shapeByType: {
+		"armor-body-easterling-lokegamp": { base: "eluxorseasterlings:entity/humanoid/seraph/armor/easterling/body" },
+		"armor-body-easterling-lokeflag": { base: "eluxorseasterlings:entity/humanoid/seraph/armor/easterling/body2" },
+		"armor-body-easterling-lokenar": { base: "eluxorseasterlings:entity/humanoid/seraph/armor/easterling/bodyscout" }
+	},
+	texturesByType: {
+		"*": {
+			"seraph": { base: "game:block/transparent" },
+			"material": { 
+				baseByType: {
+					"*": "eluxorseasterlings:entity/humanoid/serapharmor/{construction}/{bodypart}"
+				}
+			}
+		}
+	},
+	storageFlags: 128,
+	"__comment": "'keepElements names must also be added to game/entities/humanoid/player file, under the 'disableElements' attribute.",
+	attributes: {
+		handbook: {
+			groupBy: ["armor-{bodypart}-{construction}-*"]
+		},
+		visibleDamageEffect: true,
+		clothesCategoryByType: {
+			"armor-body-*": "armorbody"
+		},
+		attachableToEntity: {
+			texturePrefixCode: "armor-{bodypart}-{construction}-{material}",
+			categoryCodeByType: {
+				"armor-body-*": "armorbody"
+			},
+			disableElementsByType: {
+				"armor-body-easterling-*": ["Waist", "hideupperarm", "hidelowerarm", "mittenfrill-l", "mittenfrill-r"]
+			}
+		},
+		defaultProtLoss: {
+			perTierRelativeProtectionLoss: [0.03, 0.15],
+			perTierFlatDamageReductionLoss: [0.1, 0.2]
+		},
+		footStepSound: "wearable/leather*",
+		protectionModifiersByType: {
+			"armor-body-easterling-*": {
+				relativeProtection: 0.65,
+				flatDamageReduction: 0.15,
+				protectionTier: 1
+			}
+		}
+		},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"], "Easterlings":["*"] },
+	renderAlphaTest: 0.25,
+	durabilityByType: {
+		"armor-*": 100
+	},
+	
+	fpHandTransformByType: {
+		"armor-body-*": {
+			translation: { x: 0.4, y: -1.2, z: -0.5 },
+			rotation: { x: 163, y: -111, z: -180 },
+			origin: { x: 0.5, y: 1.6, z: 0.5 },
+			scale: 2.15
+		}
+	},
+	tpHandTransformByType: {
+		"armor-body-*": {
+			translation: { x: -1, y: -1.9, z: -0.5 },
+			rotation: { x: 97, y: -168, z: 94 },
+			origin: { x: 0.5, y: 1.5, z: 0.5 },
+			scale: 0.67
+		}
+	},
+	guiTransformByType: {
+		"armor-body-*": {
+			translation: { x: 3, y: 0, z: 0 },
+			rotation: { x: -26, y: -46, z: -180 },
+			origin: { x: 0.5, y: 1.11, z: 0.5 },
+			scale: 1.37
+		}
+	},
+	groundTransformByType: {
+		"armor-body-*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 90 },
+			origin: { x: 0.34, y: 1.12, z: 0.5 },
+			scale: 3.1
+		}
+		
+	}
+
+}

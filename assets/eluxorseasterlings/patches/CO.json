@@ -1,0 +1,208 @@
+[
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/armor",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+		"armor-body-easterling-lokenar": {
+           "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {"PiercingAttack": 12, "SlashingAttack": 12, "BluntAttack": 10},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.04, "manipulationSpeed": -0.20, "steadyAim": -0.20, "healingeffectivness": -0.09, "hungerrate": 0.1}
+          },
+		 "armor-body-easterling-lokeflag": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {"PiercingAttack": 14, "SlashingAttack": 13, "BluntAttack": 12},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.05, "manipulationSpeed": -0.20, "steadyAim": -0.20, "healingeffectivness": -0.09, "hungerrate": 0.1}
+          },
+		  "armor-body-easterling-lokegamp": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {"PiercingAttack": 15, "SlashingAttack": 14, "BluntAttack": 13},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.05, "manipulationSpeed": -0.25, "steadyAim": -0.25, "healingeffectivness": -0.09, "hungerrate": 0.12}
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/head",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+      {
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+			"armor-*-easterling-lokenar": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {"PiercingAttack": 12, "SlashingAttack": 12, "BluntAttack": 10},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": -0.04, "steadyAim": -0.08, "healingeffectivness": -0.09, "hungerrate": 0.09}
+          },
+		  "armor-*-easterling-lokeflag": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {"PiercingAttack": 14, "SlashingAttack": 13, "BluntAttack": 12},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.08, "healingeffectivness": -0.09, "hungerrate": 0.09}
+          },
+		  "armor-*-easterling-lokegamp": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {"PiercingAttack": 15, "SlashingAttack": 14, "BluntAttack": 13},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.10, "healingeffectivness": -0.09, "hungerrate": 0.10}
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/legarmor",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": [
+		{
+        "name": "CombatOverhaul:Armor",
+        "propertiesByType": {
+			"armor-legs-easterling-lokenar": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {"PiercingAttack": 12, "SlashingAttack": 12, "BluntAttack": 10},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.15, "manipulationSpeed": 0.0, "steadyAim": 0.0, "healingeffectivness": -0.06, "hungerrate": 0.08}
+				},
+			"armor-legs-easterling-lokeflag": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {"PiercingAttack": 14, "SlashingAttack": 13, "BluntAttack": 12},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.15, "manipulationSpeed": 0.0, "steadyAim": 0.0, "healingeffectivness": -0.06, "hungerrate": 0.09}
+				},
+			"armor-legs-easterling-lokegamp": {
+            "Layers": ["Outer", "Middle", "Skin"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {"PiercingAttack": 15, "SlashingAttack": 14, "BluntAttack": 13},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.16, "manipulationSpeed": 0.0, "steadyAim": 0.0, "healingeffectivness": -0.07, "hungerrate": 0.11}
+				}
+			}
+		}
+	]
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/armor",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+      "armor-*-easterling-lokenar": 25000,
+      "armor-*-easterling-lokeflag": 60000,
+      "armor-*-easterling-lokegamp": 65000
+    }
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/head",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+      "armor-*-easterling-lokenar": 8000,
+      "armor-*-easterling-lokeflag": 20000,
+      "armor-*-easterling-lokegamp": 23000
+    }
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/legarmor",
+    "op": "replace",
+    "path": "/durabilityByType",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "value": {
+      "armor-*-easterling-lokenar": 18000,
+      "armor-*-easterling-lokeflag": 40000,
+      "armor-*-easterling-lokegamp": 42000
+    }
+  },
+  
+  
+  
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/armor",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/head",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/legarmor",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/attributes/protectionModifiersByType",
+    "value": { "*": null }
+  },
+  
+  
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/armor",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/head",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/legarmor",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "replace",
+    "path": "/class",
+    "value": "CombatOverhaul:WearableArmor"
+  },
+
+
+
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/armor",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-head-*": 8 }
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/head",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-body-*": 16 }
+  },
+  {
+    "file": "eluxorseasterlings:itemtypes/wearable/easterling/legarmor",
+    "dependsOn": [{ "modId": "combatoverhaul" }],
+    "op": "add",
+    "path": "/attributes/materialCountByType",
+    "value": { "*-legs-*": 8 }
+  }
+]
