@@ -1,11 +1,21 @@
 {
     "item-clothes-head-easterlingshemagh": "Rhunic Face Mask",
+
     "item-armor-body-easterling-lokegamp": "Loke-Gamp Rim Armor",
+    "itemdesc-armor-body-easterling-lokegamp": "Quite literally the bite of the Emperor's army, the Loke-Gamp Rim are highly trained pikemen and swordsmen of the Loke-Rim",
+
     "item-armor-body-easterling-lokeflag": "Loke-Flag Rim Armor",
+    "itemdesc-armor-body-easterling-lokeflag": "Heavily armoured and armed, the Loke-Flag Rim are capable shock troops, usually wielding heavy steel maces or axes and protect themselves with large shields.",
+
     "item-armor-body-easterling-lokenar": "Loke-Nar Rim Armor",
+    "itemdesc-armor-body-easterling-lokenar": "The Loke-Nar Rim are some of the finest scouts in Middle-earth. They usually utilize large composite longbows with incredible range and power.",
     
     "item-armor-head-easterling-lokegamp": "Loke-Gamp Rim Helmet",
+    "itemdesc-armor-head-easterling-lokegamp": "Their job in battle is to close with the enemy under the protection of the Dragon's Fire and pin them in position, making the enemy susceptible to envelopment and destruction.",
+
     "item-armor-head-easterling-lokeflag": "Loke-Flag Rim Helmet",
+    "itemdesc-armor-head-easterling-lokeflag": "Primarily, their role is to protect the flanks of the Dragons Teeth, but they can also be used to soften the enemy up prior to main battle line engaging in melee.",
+
     "item-armor-head-easterling-lokenar": "Loke-Nar Rim Helmet",
 
     "item-armor-legs-easterling-lokegamp": "Loke-Gamp Rim Leggings",
